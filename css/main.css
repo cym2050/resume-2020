@@ -77,14 +77,14 @@ aside {
   margin-bottom: 30px;
 }
 
-aside .myphoto {
+aside .avader {
   text-align: center;
   position: absolute;
   top: -110px;
   width: 100%;
 }
 
-aside .myphoto > img {
+aside .avader > img {
   width: 180px;
   height: 180px;
   border-radius: 50%;
@@ -176,14 +176,15 @@ main section:not(:last-of-type) {
   margin: 30px 40px 30px 30px;
 }
 
+main section:last-of-type {
+  margin: 30px 25px 30px 30px;
+}
+
 main .line {
   margin: 0px 70px 0px 35px;
   border: 0.75px solid #ccc;
 }
 
-main section:last-of-type {
-  margin: 30px 25px 30px 30px;
-}
 
 main .flex {
   display: flex;
