@@ -62,6 +62,10 @@
             </div>
             <div class="item">
               <p class="keyword">React / Redux / React Router / React Hooks</p>
+              <p class="rule"><i style="width: 70%"></i></p>
+            </div>
+            <div class="item">
+              <p class="keyword">Vue.js/ Vuex/ Vue Router</p>
               <p class="rule"><i style="width: 65%"></i></p>
             </div>
             <div class="item">
@@ -77,21 +81,21 @@
         <section>
           <div class="more">
             <h2>了解更多</h2>
+            <!-- <div class="item">
+              <span class="link"
+                ><a href="https://cym2050.github.io/">博客主页</a></span
+              >
+            </div> -->
             <div class="item">
               <span class="link"
-                ><a href="https://cym2050.github.io/">个人博客主页</a></span
+                ><a href="https://github.com/cym2050">GitHub 主页</a></span
               >
             </div>
-            <div class="item">
-              <span class="link"
-                ><a href="https://github.com/cym2050">访问 GitHub</a></span
-              >
-            </div>
-            <div class="item">
+            <!-- <div class="item">
               <span class="link"
                 ><a href="https://cym2050.github.io/resume-2020/">简历在线版</a></span
               >
-            </div>
+            </div> -->
           </div>
         </section>
       </aside>
@@ -108,7 +112,7 @@
                 <span>
                   <span class="highlight"></span>
                   这个项目主要实现了<span class="highlight">注册、登录、识别</span>照片中人脸并<span class="highlight">标注、记录</span>用户识别次数等功能。
-                  项目设计了良好的目录布局，遵循<span class="highlight">React组件化</span>的思想，并尽量使用函数组件，其由入口文件、容器组件、功能组件构成。前端基于React库，采用<span class="highlight">create-react-app脚手架</span>生成项目结构，<span class="highlight">分析</span>项目状态复杂度后采用了React原生的<span class="highlight">state、setState</span>来做状态管理和路由，将部分组件的<span class="highlight">状态提升</span>至父组件实现不同子组件之间通信。使用<span class="highlight">Flex</span>和<span class="highlight">tachyons、react-particles-js</span>轻量UI库快速生成样式，并使用了自己的开源项目线性背景生成。后端基于<span class="highlight">NodeJS</span>与<span class="highlight">Express</span>，使用<span class="highlight">bcrypt.js</span>加密用户密码，使用<span class="highlight">PostgreSQL</span>数据库存储用户信息。人脸识别使用了Clarifai服务商提供的<span class="highlight">api</span>接口。项目可线上访问，部署在<span class="highlight">heroku</span>平台上。
+                  项目设计了良好的目录布局，遵循<span class="highlight"> React 组件化</span>的思想，并尽量使用函数组件，其由入口文件、容器组件、功能组件构成。前端基于 React 库，采用<span class="highlight"> create-react-app 脚手架</span>生成项目结构，<span class="highlight">分析</span>项目状态复杂度后采用了 React 原生的<span class="highlight"> state、setState </span>来做状态管理和路由，将部分组件的<span class="highlight">状态提升</span>至父组件实现不同子组件之间通信。使用<span class="highlight"> Flex </span>和<span class="highlight"> tachyons、react-particles-js </span>轻量 UI 库快速生成样式，并使用了自己的开源项目线性背景生成。后端基于<span class="highlight"> NodeJS </span>与<span class="highlight"> Express </span>，使用<span class="highlight"> bcrypt.js </span>加密用户密码，使用<span class="highlight"> PostgreSQL </span>数据库存储用户信息。人脸识别使用了 Clarifai 服务商提供的<span class="highlight"> api </span>接口。项目可线上访问，部署在<span class="highlight"> heroku </span>平台上。
                 </span>
               </li>
               <li>
@@ -195,7 +199,35 @@
               </li>
             </ul>
           </div>
+
           <h2>开源项目</h2>
+
+          <!-- <div class="item">
+            <h3>蜂鸟 UI</h3>
+            <img src="./img/sketch.png" alt="蜂鸟 UI" />
+            <ul>
+              <li>
+                <strong>项目介绍：</strong>
+                <span>
+                  一款基于 Vue 实现的 UI 框架
+                  目前已实现 switch， button， dialog组件
+                </span>
+              </li>
+              <li>
+                <strong>项目源码：</strong
+                ><a href="https://github.com/cym2050/hummer-ui-vue"
+                  >github.com/cym2050/hummer-ui-vue</a
+                >
+              </li>
+              <li>
+                <strong>浏览链接：</strong
+                ><a href="http://cym2050.gitee.io/sketch"
+                  >http://cym2050.gitee.io/sketch</a
+                >
+              </li>
+            </ul>
+          </div> -->
+
           <div class="item">
             <h3>线性渐变背景生成器</h3>
             <img src="./img/background-generator.png" alt="线性渐变背景生成器" />
@@ -220,24 +252,56 @@
               </li>
             </ul>
           </div>
+
+          <div class="item">
+            <h3>速写画板</h3>
+            <img src="./img/sketch.png" alt="速写画板" />
+            <ul>
+              <li>
+                <strong>项目介绍：</strong>
+                <span>
+                  画板适配了电脑端与移动端，在电脑端使用鼠标进行图像绘制，移动端使用触摸也可以绘制图像。实现了画笔、橡皮擦、颜色选取、画笔粗细、清屏、作为图片下载等功能。主要实践使用canvas api。
+                </span>
+              </li>
+              <li>
+                <strong>项目源码：</strong
+                ><a href="https://github.com/cym2050/drawing-board"
+                  >github.com/cym2050/drawing-board</a
+                >
+              </li>
+              <li>
+                <strong>浏览链接：</strong
+                ><a href="http://cym2050.gitee.io/sketch"
+                  >http://cym2050.gitee.io/sketch</a
+                >
+              </li>
+            </ul>
+          </div>
+
         <section>
           <h2>关于我</h2>
           <p>
             熟悉 HTML5 常用标签，熟悉 标签语义化 并使用在具体项目中。
           <p>
-            熟悉 CSS3 包括 盒模型 / Flex / Grid布局 / CSS3动画等，了解 SASS 预处理器。
+            熟悉 CSS3 包括 盒模型 / Flex / Grid布局 / CSS3动画 / Canvas 等，熟悉 styled-components，了解 Sass ，Less 预处理器。
           </p>
           <p>
-            熟悉原生 JavaScript 编程包括 闭包 / 原型链 / this指针等， 熟悉 ES6新特性 包括 let / promise /class /解构赋值等。掌握并在项目中使用 TypeScript 编程。
+            熟悉使用 Flex / rem / Less / 媒体查询 制作移动端适配页面。
           </p>
           <p>
-             熟练掌握 React全家桶 的使用，包括 create-react-app / Redux / React Redux / ReactRouter / ReactHooks 等。
+            熟悉原生 JavaScript 编程包括 闭包 / 原型链 / this 指针等， 熟悉 ES6新特性 包括 let / promise / class / 解构赋值等。掌握并在项目中使用 TypeScript 编程。
           </p>
           <p>
-            了解Node.js / Express，能够开发简单的后台服务器。
+            熟练掌握 React全家桶 的使用，包括 create-react-app / Redux / React Redux / ReactRouter / ReactHooks 等。
           </p>
           <p>
-            熟练使用VsCode、Git、Git Bash等开发工具。
+            了解 Vue.js / Vuex / Vue Router。
+          </p>
+          <p>
+            了解 nodeJS / Express 等后端开发，并实际使用 Express 开发过后台。
+          </p>
+          <p>
+            了解 webpack 等前端前端工程化工具，并实际使用 webpack 打包过项目。
           </p>
         </section>
       </main>
